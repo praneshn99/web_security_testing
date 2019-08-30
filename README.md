@@ -11,3 +11,4 @@ The major web vulnerabilities in this project are :<br/>
 ![standard-readme compliant](https://img.shields.io/badge/frontend-HTML5-orange.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/frontend-CSS-blue.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/frontend-Bootstrap-blueviolet.svg?style=flat-square)
+
