@@ -7,7 +7,7 @@ The major web vulnerabilities in this project are :<br/>
 4) Clickjacking<br/>
 5) Business Logic<br/>
 6) Cross Site Request Forgery (CSRF)<br/>
-# Languages:<br/>
+# Languages<br/>
 ![standard-readme compliant](https://img.shields.io/badge/frontend-HTML5-brightgreen.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/frontend-CSS-brightgreen.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/frontend-Bootstrap-brightgreen.svg?style=flat-square)
