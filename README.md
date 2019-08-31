@@ -1,4 +1,4 @@
-# web_security_testing
+# KnowledgeHUB : A vulnerable education portal
 This project's **sole purpose** is for website security testing keeping in mind the [OWASP Top 10](https://www.cloudflare.com/learning/security/threats/owasp-top-10/).<br/>
 The major web vulnerabilities in this project are :<br/>
 1) SQL Injection<br/>
