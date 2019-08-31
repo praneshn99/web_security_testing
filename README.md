@@ -26,4 +26,7 @@ People often use [Chrome](https://www.google.com/chrome/); however, for web deve
 #### 3) Server Hosting
 If you are excellent with [NodeJS](https://nodejs.org/en/), then you can easily make server at localhost. But, a much faster and easier way to do this is by using [XAMPP](https://www.apachefriends.org/download.html). This project was created using XAMPP.
 #### 4) Vulnerability Tester
-Since this project revolves around web testing, use of a vulnerability software is helpful. I recommend [Burp Suite](https://portswigger.net/burp) for this task. 
+Since this project revolves around web testing, use of a vulnerability software is helpful. I recommend [Burp Suite](https://portswigger.net/burp) for this task. <br/>
+# Extra Requirements<br/>
+### Firefox Browser<br/>
+Type 'about:config'
