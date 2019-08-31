@@ -22,4 +22,8 @@ The project trys to signify the importance of website security in todays world a
 Today we are surrounded by several code editors. If you use Mac, I strongly recommend [Sublime Text](https://www.sublimetext.com/). <br/>
 For Windows and Linux users, [Visual Studio Code](https://code.visualstudio.com/) is one of the best.<br/>
 #### 2) Browser<br/>
-People often use [Chrome](https://www.google.com/chrome/); however, for web development and security testing; I recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+People often use [Chrome](https://www.google.com/chrome/); however, for web development and security testing; I recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/).<br/>
+#### 3) Server Hosting
+If you are excellent with [NodeJS](https://nodejs.org/en/), then you can easily make server at localhost. But, a much faster and easier way to do this is by using [XAMPP](https://www.apachefriends.org/download.html). This project was created using XAMPP.
+#### 4) Vulnerability Tester
+Since this project revolves around web testing, use of a vulnerability software is helpful. I recommend [Burp Suite](https://portswigger.net/burp) for this task. 
