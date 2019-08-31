@@ -31,4 +31,4 @@ Since this project revolves around web testing, use of a vulnerability software 
 ### Firefox Browser<br/>
 Type 'about:config' in your search bar. After the advance settings tab open, goto 'network.proxy.allow_hijacking_localhost'. If it is set to FALSE, double click on it to make it TRUE.<br/>
 ### Database Creation
-If you are using XAMPP, thne you
+If you are using XAMPP, then you should first open the control tab and start Apache and MySQL. After this, Go to your browser and type in 'localhost'. You will be greeted by XAMPP Welcome Page. On top right corner, you will see 'phpmyadmin'. Go there and create a new database called 'studyportal'. After creating it, look carefully for 'Import' option on the dashboard of the database. Click on it and choose the file to be uploaded. In the ZIP folder of my project, I have included a SQL file named 'studyportal.sql' . Upload this file and your database is ready. Do the similar steps for another database named 'hacking' and upload 'hacking.sql' .
