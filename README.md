@@ -16,7 +16,7 @@ The major web vulnerabilities in this project are :<br/>
 ![standard-readme compliant](https://img.shields.io/badge/backend-Ajax-0E8AEE.svg?style=flat-square)
 ![standard-readme compliant](https://img.shields.io/badge/backend-SQL-F0BD2C.svg?style=flat-square)<br/>
 # Objective<br/>
-The project trys to signify the importance of website security in todays world as it emphasizes on the major attacks thart usually occur accross the world. It contains intentional web vulnerabilities and the methods of securing it are present in the code itself. <br/>
+The project signifies the importance of website security in todays world as it emphasizes on the major attacks thart usually occur accross the world. It contains intentional web vulnerabilities and the methods of securing it are present in the code itself. <br/>
 # Requirements<br/>
 #### 1) Code Editor<br/>
 Today we are surrounded by several code editors. If you use Mac, I strongly recommend [Sublime Text](https://www.sublimetext.com/). <br/>
@@ -29,4 +29,6 @@ If you are excellent with [NodeJS](https://nodejs.org/en/), then you can easily 
 Since this project revolves around web testing, use of a vulnerability software is helpful. I recommend [Burp Suite](https://portswigger.net/burp) for this task. <br/>
 # Extra Requirements<br/>
 ### Firefox Browser<br/>
-Type 'about:config'
+Type 'about:config' in your search bar. After the advance settings tab open, goto 'network.proxy.allow_hijacking_localhost'. If it is set to FALSE, double click on it to make it TRUE.<br/>
+### Database Creation
+If you are using XAMPP, 
