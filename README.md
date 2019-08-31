@@ -22,4 +22,4 @@ The project trys to signify the importance of website security in todays world a
 Today we are surrounded by several code editors. If you use Mac, I strongly recommend [Sublime Text](https://www.sublimetext.com/). <br/>
 For Windows and Linux users, [Visual Studio Code](https://code.visualstudio.com/) is one of the best.<br/>
 #### 2) Browser<br/>
-People often use [Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwkqPrBRA3EiwAKdtwkzKykyX_1f1SYD4i-HBBcaKRRqKkNihbUjiuJ4kIjYm5ShITX5ADkhoCKf4QAvD_BwE&gclsrc=aw.ds); however, for web development and security testing; I recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+People often use [Chrome](https://www.google.com/chrome/); however, for web development and security testing; I recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/).
