@@ -31,4 +31,4 @@ Since this project revolves around web testing, use of a vulnerability software 
 ### Firefox Browser<br/>
 Type 'about:config' in your search bar. After the advance settings tab open, goto 'network.proxy.allow_hijacking_localhost'. If it is set to FALSE, double click on it to make it TRUE.<br/>
 ### Database Creation
-If you are using XAMPP, 
+If you are using XAMPP, thne you
