@@ -91,3 +91,18 @@ body {
   10% {opacity: 1}
   100% {transform: rotate(360deg)}
 }
+#link {
+  bottom: 20px;
+  color: #CF002F;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#link p {font-size: 20px; margin: 0; margin-left: 5px;}
+#link:hover {opacity: 1;}
+</style>
+</head>
+
