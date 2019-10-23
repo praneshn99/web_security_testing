@@ -172,3 +172,147 @@ CREATE TABLE `orders_items` (
   `quantity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `payment`
+--
+
+CREATE TABLE `payment` (
+  `order_id` int(11) NOT NULL,
+  `total_amount` int(11) NOT NULL,
+  `customer` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `products`
+--
+
+CREATE TABLE `products` (
+  `product_id` int(11) NOT NULL,
+  `product_name` varchar(255) NOT NULL,
+  `product_image` varchar(255) DEFAULT NULL,
+  `product_description` text,
+  `product_price` decimal(10,2) NOT NULL DEFAULT '0.00'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` (`product_id`, `product_name`, `product_image`, `product_description`, `product_price`) VALUES
+(1, 'BOOK', 'try4.jpg', 'Product Discription', '400.00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `register`
+--
+
+CREATE TABLE `register` (
+  `name` char(50) NOT NULL,
+  `dob` date NOT NULL,
+  `gender` char(10) NOT NULL,
+  `address` varchar(300) NOT NULL,
+  `contact` int(15) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(25) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `course_1`
+--
+ALTER TABLE `course_1`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `course_2`
+--
+ALTER TABLE `course_2`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `course_3`
+--
+ALTER TABLE `course_3`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `course_4`
+--
+ALTER TABLE `course_4`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `course_5`
+--
+ALTER TABLE `course_5`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `faculty_1`
+--
+ALTER TABLE `faculty_1`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `faculty_2`
+--
+ALTER TABLE `faculty_2`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `faculty_3`
+--
+ALTER TABLE `faculty_3`
+  ADD PRIMARY KEY (`comment_id`);
+
+--
+-- Indexes for table `images`
+--
+ALTER TABLE `images`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`order_id`),
+  ADD KEY `name` (`order_name`),
+  ADD KEY `email` (`order_email`),
+  ADD KEY `order_date` (`order_date`);
+
+--
+-- Indexes for table `orders_items`
+--
+ALTER TABLE `orders_items`
+  ADD PRIMARY KEY (`order_id`,`product_id`);
+
+--
+-- Indexes for table `payment`
+--
+ALTER TABLE `payment`
+  ADD PRIMARY KEY (`order_id`);
+
+--
+-- Indexes for table `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`product_id`),
+  ADD KEY `name` (`product_name`);
+
+--
+-- Indexes for table `register`
+--
+ALTER TABLE `register`
+  ADD PRIMARY KEY (`email`),
+  ADD UNIQUE KEY `username` (`username`),
+  ADD UNIQUE KEY `contact` (`contact`);
+
