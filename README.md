@@ -41,9 +41,10 @@ For setting up Burp Suite, [Click Here](https://support.portswigger.net/customer
 
 # Screenshots
 <br/>
-![homepage](website-welcome.png)
+![homepage](website_welcome.png)
 <br/>
-
+![courses-webpage](courses_welcome.png)
+<br/>
 # License
 [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
