@@ -48,7 +48,7 @@ For setting up Burp Suite, [Click Here](https://support.portswigger.net/customer
 <br/>
 ![book-webpage](book_welcome.png)
 <br/>
-![registration-webpage]()
+![registration-webpage](register_welcome.png)
 <br/>
 ![login-webpage](login_content_1.png)
 <br/>
