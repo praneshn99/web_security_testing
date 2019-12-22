@@ -40,6 +40,9 @@ If you are using XAMPP, then you should first open the control tab and start Apa
 For setting up Burp Suite, [Click Here](https://support.portswigger.net/customer/portal/articles/1783055-configuring-your-browser-to-work-with-burp). Also, to download Burp Suite Certificate, [Click Here](http://burp/). If you are unable to access webpage, then wait for some time and access it later.<br/>
 
 # Screenshots
+<br/>
+![homepage](website-welcome.png)
+<br/>
 
 # License
 [Apache Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
