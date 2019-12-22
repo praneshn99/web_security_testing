@@ -1,4 +1,4 @@
-<center>![website-logo](website_logo.png)</center>
+![website-logo](website_logo.png)
 <br/><br/>
 # KnowledgeHUB : A vulnerable education portal
 This project's **sole purpose** is for website security testing keeping in mind the [OWASP Top 10](https://www.cloudflare.com/learning/security/threats/owasp-top-10/).<br/>
