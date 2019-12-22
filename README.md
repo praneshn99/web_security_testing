@@ -1,3 +1,5 @@
+<center>![website-logo](website_logo.png)</center>
+<br/><br/>
 # KnowledgeHUB : A vulnerable education portal
 This project's **sole purpose** is for website security testing keeping in mind the [OWASP Top 10](https://www.cloudflare.com/learning/security/threats/owasp-top-10/).<br/>
 The major web vulnerabilities in this project are :<br/>
@@ -7,7 +9,7 @@ The major web vulnerabilities in this project are :<br/>
 4) Clickjacking<br/>
 5) Business Logic<br/>
 6) Cross Site Request Forgery (CSRF)<br/>
-![website-logo](website_logo.png)
+
 # Languages<br/>
 
 ![standard-readme compliant](https://img.shields.io/badge/frontend-HTML5-orange.svg?style=flat-square)
