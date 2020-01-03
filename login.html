@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+
+html, body { height: 100%; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(images/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  font-size: 500%
+}
+.text:hover {
+  transform: rotateX(35deg), translateY(-50%);
+}
+.text:hover span {
+  color: #ccc;
+}
+.text:hover span:nth-child(odd) {
+  transform: skewY(15deg);
+}
+.text:hover span:nth-child(even) {
+  transform: skewY(-15deg);
+  background-color: black;
+  color:white;
+  font-weight: bold;
+}
+
+.text:hover span:nth-child(odd) {
+  background-color:white;
+  color:black;
+  font-weight: bold;
+}
+.text > span {
+  display: block;
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+.text > span:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+
+	</style>
+	<body class="subpage">
+
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="website.html">Knowledge<span>HUB</span></a></div>
+				<a href="#menu">Menu</a>
+			</header><br/><br>
+			<div class="text">
+					<span>L</span>
+					<span>O</span>
+					<span>G</span>
+					<span>I</span>
+					<span>N</span>
+				  </div>
+<center/>
+<form method="POST" action="login.php" >
+	<table style="width: 30%;background-color: honeydew;color: black">
+			<tr>
+					<td>Username</td>
+					<td><input type="text" name="user"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+						<td align="right"><input type="submit" name="submit" value="Submit"/></td>
+						<td><input type="reset" name="reset" value="Reset"/></td>
+						</tr>
+	</table>
+</form>
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="website.html">Home</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="faculty.html">Faculty</a></li>
+				<li><a href="books.html">Study Material</a></li>
+				<li><a href="dummy.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+			<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>		
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
