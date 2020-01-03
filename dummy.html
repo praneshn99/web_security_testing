@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <style>
+
+            body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  background-image: linear-gradient(125deg,#1E90FF,#008080,#3CB371,#48D1CC,#9370DB,#DDA0DD,#BA55D3,#B22222);
+  background-size: 400% 400%;
+  animation: bganimation 14s infinite;
+}
+.text{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 200px 0;
+  font-size: 22px;
+}
+@keyframes bganimation{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}
+
+        </style>
+	</head>
+	<body class="subpage">
+        <div id="text"></div>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Knowledge<span>HUB</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+			<ul class="links">
+				<li><a href="website.html">Home</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="faculty.html">Faculty</a></li>
+				<li><a href="books.html">Study Material</a></li>
+				<li><a href="dummy.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+            </nav>
+            <center/><h1>Registration Form</h1>
+<strong>
+			<form method='GET' name='register' action='register_form.php'>
+				<table style="width: 60%;backface-visibility: hidden;background-color: cornsilk;border-radius: 10px">
+					<tr>
+						<td>Full Name</td>
+                        <td><input type="text" name="fname"/></td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                            <td><input type="date" name="datobth"/></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td> <input type="text" name="gender"/></td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td><input type="text" name="address"/></td>
+                            </tr>
+                            <tr>
+                                <td>Contact Details</td>
+                                <td><input type="tel" name="mobile"/></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><input type="email" name="email"/></td>
+                            </tr>
+                            <tr>
+                                <td>Username</td>
+                                <td><input type="text" name="user"/></td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td><input type="password" name="password"/></td>
+                            </tr>
+                            <tr>
+                                <td>Captcha<br/><img src='captcha.php'></td>
+                                <td><input type="text" name="captcha"/></td>
+                            </tr>
+                            <tr>
+                            <td align="right"><input type="submit" name="submit" value="Submit"/></td>
+                            <td><input type="reset" name="reset" value="Reset"/></td>
+                            </tr>
+                        </table>
+                        </form>
+
+</strong>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
